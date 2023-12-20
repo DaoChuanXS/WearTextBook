@@ -1,0 +1,418 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=数学计算
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=170.1dp
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=一元一次方程
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=ax+b=0
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=center
+textSize=16sp
+textColor=#1E88E5
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="18" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入a
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="33" did="19" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=a
+textSize=18sp
+textColorHighlight=#ffffff
+gravity=center
+textCursorDrawable=#ffffff
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=center_horizontal
+textColorHint=#1E88E5
+cursorVisible=false
+maxLines=1
+textColorLink=#ffffff
+</ppt>
+<event></event>
+</View>
+<View id="22" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入b
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="34" did="23" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=b
+textSize=18sp
+textColorHighlight=#ffffff
+gravity=center
+textCursorDrawable=#ffffff
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=center_horizontal
+textColorHint=#1E88E5
+cursorVisible=false
+maxLines=1
+textColorLink=#ffffff
+</ppt>
+<event></event>
+</View>
+<View id="35" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=计算结果
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=center
+textSize=16sp
+textColor=#1E88E5
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="26" did="11" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">ug(33,"text",a)
+ug(34,"text",b)
+f(a!=""&&b!="")
+{
+  sn((0-b)/a,a1)
+  us(38,"text","x="+a1)
+}
+else
+{
+ us(38,"text","缺少计算参数")
+ us(38,"visibility","visible")
+}</eventItme></event>
+</View>
+<View id="27" did="26" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=Count
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="31" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="TextView">
+<ppt>width=-2
+height=-1
+text=计算
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+//调整顶部状态栏
+s(y*0.16,a)
+us(2,"height",a+"dp")
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+//调整布局
+s(x*0.9,c)
+us(12,"width",c+"dp")
+us(26,"width",c+"dp")
+s(y*0.25,d)
+us(26,"height",d+"dp")
+us(26,"layout_margintop",b+"dp")
+us(26,"layout_marginbottom",b+"dp")
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+   
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(12,"layout_margintop",ee+"dp")
+ }
+ us(26,"layout_marginbottom",cc+"dp")
+ us(12,"width",aa+"dp")
+ us(26,"width",aa+"dp")
+}
+else f()
+{
+}
+</eventItme></UIEventset>

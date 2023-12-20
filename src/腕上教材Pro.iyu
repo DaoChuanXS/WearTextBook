@@ -1,0 +1,551 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=腕上教材Pro
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="11" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#404040
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">fr("$wearbook.wsjc",文本)
+f(文本!="ghghasdw")
+{
+  ufnsui()
+  {
+    us(41,"src","@icons/logo-(1).png")
+    us(44,"text","未激活")
+     fn MDtw.toast("你还未激活腕上教材Pro呢",1)
+    
+  }
+}
+else
+{
+  ufnsui()
+  {
+    us(41,"src","@icons/pro.png")
+    us(44,"text","已激活")
+    uigo("Pro设置.iyu")
+  }
+}</eventItme></event>
+</View>
+<View id="40" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="ImageView">
+<ppt>width=52dp
+height=-2
+src=@icons/pro.png
+adjustViewBounds=true
+layout_marginTop=5dp
+layout_marginLeft=5dp
+</ppt>
+<event></event>
+</View>
+<View id="42" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="TextView">
+<ppt>width=-2
+height=31dp
+text=腕上教材 Pro
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+layout_gravity=center
+textColor=#ffffff
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="44" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=未激活
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+gravity=center
+textColor=#ffffff
+layout_gravity=center
+textSize=12sp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=170.1dp
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=激活码
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=16sp
+textColor=#ffffff
+layout_marginLeft=2.5dp
+</ppt>
+<event></event>
+</View>
+<View id="18" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000
+</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=激活时间
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="21" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=12sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=激活备注
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=16sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="35" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">uigo("donate.iyu")</eventItme></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=激活方法
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.点击此段文字进入捐赠界面，选择支付方式，手机扫码捐赠5元或以上，付款时务必备注设备激活码及个人QQ号(QQ号与设备码务必隔开)\n2.添加QQ：2071172252\n3.发送支付记录及设备激活码\n4.若因设备重置、系统更新导致激活状态失效的可联系上述QQ再次激活\n注意：激活后设备码务必保存一份，否则重置激活时无法提供服务\n点击下方二维码可复制激活码
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=10sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="26" did="11" type="CardView">
+<ppt>width=165dp
+height=165dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000
+</ppt>
+<event><eventItme type="clicki">sxb(sss.sbm)
+fn MDtw.toast("已复制激活码",0)</eventItme></event>
+</View>
+<View id="34" did="26" type="ImageView">
+<ppt>width=165dp
+height=165dp
+src=144
+layout_gravity=center
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+//调整状态栏黑色
+uycl("#000000", true)
+//获取高与宽
+swh("w",x)
+swh("h",y)
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+//调整顶部状态栏
+s(y*0.16,a)
+us(2,"height",a+"dp")
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+//调整布局
+s(x*0.9,c)
+us(39,"width",c+"dp")
+us(12,"width",c+"dp")
+s(y*0.25,d)
+us(39,"height",d+"dp")
+us(26,"layout_margintop",b+"dp")
+us(26,"layout_marginbottom",b+"dp")
+s(d-10,di)
+us(41,"width",di+"dp")
+s(y*0.125,yi)
+us(43,"height",yi+"dp")
+//获取设备码
+call(sss.sbm,"mjava","hqsbm.getAndroidId",activity)
+us(17,"text",sss.sbm)
+//生成设备码对应二维码
+us(34,"height","165dp")
+us(34,"width","165dp")
+us(34,"visibility","0")
+uqr(sss.sbm,400,ss.uqr)
+us(34,"src",ss.uqr)
+//本地激活信息载入
+fr("$wearbook.wsjc",文本)
+f(文本!="dggdvv")
+{
+  ufnsui()
+  {
+    us(41,"src","@icons/no pro.png")
+    us(44,"text","未激活")
+  }
+}
+else
+{
+  ufnsui()
+  {
+    us(41,"src","@icons/pro.png")
+    us(44,"text","已激活")
+  }
+}
+//正式激活
+t()
+{
+  ss("后端接口",dz)
+ufnsui()
+{
+  ug(17,"text",zh)
+  ug(17,"text",mm)
+}
+stop("500")
+f(zh==""||mm=="")
+{
+  ufnsui()
+  {
+    fn MDtw.toast("系统bug，联系开发者反馈",2)
+  }
+}
+else
+{
+  ss("zh="+zh,tj)
+  hs(dz,tj,null,fh)
+  sj(fh,"【","】",bb)
+  f(bb==null)
+  {
+    ufnsui()
+    {
+      sj(fh,"密码{","}",mima)
+      f(mm==mima)
+      {
+        s jhztjh="已激活"        
+        sj(fh,"备注《","》",mc)
+        sj(fh,"时间[","]",sh)
+        s wjlj = "$激活状态.wsjc"
+        s wjnr = "dggdvv"
+        fw(wjlj, wjnr)
+        ufnsui()
+        {
+         us(21,"text",sh)
+         us(25,"text",mc)
+         us(44,"text","已激活")
+         us(41,"src","@icons/pro.png")
+        }      
+      }
+      else f(mima==null)
+       {
+        s wjlj = "$wearbook.wsjc"
+        fd(wjlj,b)
+        ufnsui()
+        {
+         us(44,"text","未激活")
+         us(41,"src","@icons/no pro.png")
+         fn MDtw.toast("请检查网络状态",2)
+         us(21,“text”,"获取失败")
+         us(25,"text","获取失败")
+        }
+       }
+      else
+      {                
+        s wjlj = "$wearbook..wsjc"
+        fd(wjlj,b)
+        ufnsui()
+         {
+          us(44,"text","激活失效")
+          us(41,"src","@icons/no pro.png")
+         }
+        fn MDtw.toast("请联系开发者处理",1)
+      }
+    }
+  }
+  else
+  {
+    ufnsui()
+    {           
+        s wjlj = "$wearbook.wsjc"
+        fd(wjlj,b)
+        ufnsui()
+         {
+          us(44,"text","未激活")
+          us(44,"src","@icons/logo1.png")
+         }
+        fn MDtw.toast(bb,1)
+    }
+  }
+}
+}
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(39,"layout_margintop",ee+"dp")
+ }
+ us(26,"layout_marginbottom",cc+"dp")
+ us(39,"width",aa+"dp")
+ us(26,"width",aa+"dp")
+}
+else f()
+{
+}</eventItme></UIEventset>
