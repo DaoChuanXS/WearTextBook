@@ -1,0 +1,116 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=标题
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+
+//调整顶部状态栏
+s(y*0.16,a)
+us(2,"height",a+"dp")
+
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}</eventItme></UIEventset>

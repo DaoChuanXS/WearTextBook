@@ -1,0 +1,621 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=检查更新
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="40" did="11" type="CardView">
+<ppt>width=170.1dp
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="46" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前版本日志
+textColor=#1E88E5
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.新增幸运骰子(放松园地查看)\n2.新增高中古文课外拓展篇目\n3.新增数学计算二元一次方程组\n4.新增数学计算开根式\n5.优化关于界面UI\n6.调整“更多内容”的项目栏，部分移至关于界面\n7.取消更新日志(仅可查看当前版本日志和最新版本日志)\n8.优化底层运行代码\n9.修复部分已知错误\n10.优化官方公告及消息通知的显示\n11.用户协议更新\n12.更换全新logo
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=16sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=170.1dp
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前版本
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=16sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="18" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=最新版本
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="21" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=16sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+layout_marginTop=5dp
+BackgroundRipple=#000000
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=最新版本更新日志
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=14sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=left
+textSize=16sp
+textColor=#ffffff
+layout_marginLeft=2.5dp</ppt>
+<event></event>
+</View>
+<View id="26" did="11" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">
+//获取更新数据
+ss host = "后端接口"
+t()
+{
+  hs(host,host)
+  f(host==null)
+  {
+   ufnsui()
+   {
+    fn MDtw.toast("请检查网络状态",1)
+   }
+  }
+  else
+  {
+  json(host,api)
+  json(api,"get","code",code)
+  json(api,"get","msg",msg)
+  json(api,"get","title",title)
+  json(api,"get","content",content)
+  ufnsui()
+   {
+     f(code==200)
+     {
+      //-200获取成功回调输出     
+      sj(content,"【","】",bb)
+      sj(content,"《","》",web)
+      f(bb==sss.dqbb)
+      {
+       ufnsui()
+       {
+        fn MDtw.toast("当前已是最新版本",0)
+       }
+      }
+      else f(bb!=sss.dqbb)
+      {
+       t()
+        {
+         ss("转换服务接口",url)
+         hs(url,downurl)
+         json(downurl,url)
+         json(url, "get", "data", data)
+         json(data,data)
+         json(data, "get", "url", url)
+         s notsohw = true
+         ss("更新包"+".apk",name)
+         hdda(url, name, "腕上教材 DaoChuan", notsohw ,updatedapk)
+         ufnsui()
+         {
+          fn MDtw.toast("正在下载，请稍等",2)
+         }
+        }
+      }     
+     }
+     else
+     {
+      ufnsui()
+      {
+       fn MDtw.toast("服务器发生了故障"+"("+msg+")",1)
+      }
+     }
+   }
+  }
+}
+</eventItme></event>
+</View>
+<View id="27" did="26" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=Get Updated Version
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="31" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="TextView">
+<ppt>width=-2
+height=-1
+text=获取最新版本
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="33" did="11" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">s a = "%腕上教材/应用更新/更新包.apk"
+fd(a, b)
+f(b==true)
+{
+  fn MDtw.toast("已清除",0)
+}
+else
+{
+  fn MDtw.toast("暂无更新缓存",1)
+}
+</eventItme></event>
+</View>
+<View id="34" did="33" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=Clear Update Cache
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>width=-2
+height=-1
+text=清除更新缓存
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+//防抓包
+fn vpn.vpn()
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+//调整顶部状态栏
+s(y*0.16,a)
+us(2,"height",a+"dp")
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+//调整布局
+s(x*0.9,c)
+us(12,"width",c+"dp")
+us(26,"width",c+"dp")
+us(33,"width",c+"dp")
+us(40,"width",c+"dp")
+s(y*0.25,d)
+us(26,"height",d+"dp")
+us(33,"height",d+"dp")
+us(26,"layout_margintop",b+"dp")
+us(33,"layout_margintop",b+"dp")
+us(33,"layout_marginbottom",b+"dp")
+//获取本地数据
+javax(pknm,activity,"android.content.ContextWrapper","getPackageName")
+javax(ac,activity,"android.content.ContextWrapper","getPackageManager")
+javax(ver,ac,"android.content.pm.PackageManager","getPackageInfo","java.lang.String",pknm,"int",0)
+javags(sss.dqbb,ver,"android.content.pm.PackageInfo.versionName")
+us(17,"text",sss.dqbb)
+//云端检查更新
+ss url = "http://jane.xingyige.cn/"
+s documentID = "1115"
+s documentType = "json"
+t()
+{
+  ss("?type="+documentType+"&id="+documentID,gets)
+  ss(ss.url+"host/get_document.php"+gets,host)
+  hs(host,host)
+  f(host==null)
+  {
+   ufnsui()
+   {
+    us(21,"text","检查网络")
+    us(25,"text","获取失败")
+   }  
+  }
+  else
+  {
+   json(host,api)
+   json(api,"get","code",code)
+   json(api,"get","msg",msg)
+   json(api,"get","title",title)
+   json(api,"get","content",content)
+   ufnsui()
+   {  
+     f(code==200)
+     {
+      //-200获取成功回调输出     
+      sj(content,"【","】",bb)
+      sj(content,"&lt;","&gt;",nr)
+      f(sss.dqbb==bb)
+      {
+        ufnsui()
+         {
+          us(21,"text","当前已是最新版本")
+          us(25,"text",nr)
+         }
+      }
+      else f(sss.dqbb!=bb)
+      {   
+        ufnsui()
+         {
+          us(21,"text",bb)
+          us(25,"text",nr)
+         }
+      } 
+     }
+     else
+     {    
+      ufnsui()
+      {
+       fn MDtw.toast("服务器发生了故障"+"("+msg+")",1)
+      }
+     }
+    }
+  }
+}
+//设置下载器配置
+s a = "%腕上教材/应用更新"
+s b = "%腕上教材/应用更新"
+s c = 3
+s d = 3
+s e = 2
+s f = 25000
+s g = true
+hdd(a, b, c, d, e, f, g)
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+   
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(40,"layout_margintop",ee+"dp")
+ }
+ us(33,"layout_marginbottom",cc+"dp")
+ us(12,"width",aa+"dp")
+ us(26,"width",aa+"dp")
+ us(33,"width",aa+"dp")
+ us(40,"width",aa+"dp")
+}
+else f()
+{
+}
+</eventItme></UIEventset>

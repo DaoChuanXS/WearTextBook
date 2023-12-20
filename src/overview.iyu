@@ -1,0 +1,616 @@
+<View id="2" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#000000</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#000000</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="CardView">
+<ppt>width=122.85dp
+height=37.8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="EditText">
+<ppt>width=112.85dp
+height=-1
+text=
+hint=查询古文
+textSize=14sp
+textColorHighlight=#ffffff
+gravity=center
+textCursorDrawable=#ffffff
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=center_horizontal
+textColorHint=#ffd5d2d2
+cursorVisible=felse
+ps=textCursorDrawable=#00240038
+maxLines=1
+textColorLink=#ffffff
+</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=37.8dp
+height=37.8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242
+layout_marginLeft=9.45dp
+BackgroundRipple=#000000
+</ppt>
+<event></event>
+</View>
+<View id="12" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#424242
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">// 获取编辑框的文本
+ug(overview.11, "text", gswText)
+
+// 判断输入古文名称是什么，并赋值对应的名称给全局变量 gsw
+f(gswText == "离骚" || gswText == "ls") {
+    sss gsw = "离骚"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "蜀道难" || gswText == "sdn") {
+    sss gsw = "蜀道难"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "蜀相" || gswText == "sx") {
+    sss gsw = "蜀相"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "陈情表" || gswText == "cqb") {
+    sss gsw = "陈情表"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "项脊轩志" || gswText == "xjxz") {
+    sss gsw = "项脊轩志"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "归去来兮辞" || gswText == "gqlxc") {
+    sss gsw = "归去来兮辞"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "石钟山记" || gswText == "szsj") {
+    sss gsw = "石钟山记"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "拟行路难" || gswText == "nxln") {
+    sss gsw = "拟行路难"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "种树郭橐驼传" || gswText == "zsgttz") {
+    sss gsw = "种树郭橐驼传"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "客至" || gswText == "kz") {
+    sss gsw = "客至"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "登快阁" || gswText == "dkg") {
+    sss gsw = "登快阁"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "临安春雨初霁" || gswText == "lacycj") {
+    sss gsw = "临安春雨初霁"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "扬州慢" || gswText == "yzm") {
+    sss gsw = "扬州慢"
+    uigo("gswci.iyu")
+}
+else f(gswText == "望海潮" || gswText == "whc") {
+    sss gsw = "望海潮"
+    uigo("gswci.iyu")
+}
+else f(gswText == "屈原列传" || gswText == "qylz") {
+    sss gsw = "屈原列传"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "过秦论" || gswText == "gql") {
+    sss gsw = "过秦论"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "五代史伶官传序" || gswText == "wdslgzx") {
+    sss gsw = "五代史伶官传序"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "燕歌行" || gswText == "ygx") {
+    sss gsw = "燕歌行"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "李凭箜篌引" || gswText == "lpkhy") {
+    sss gsw = "李凭箜篌引"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "锦瑟" || gswText == "js") {
+    sss gsw = "锦瑟"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "书愤" || gswText == "sf") {
+    sss gsw = "书愤"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "论语十二章" || gswText == "lysez"|| gswText == "论语"|| gswText == "ly") {
+    sss gsw = "论语十二章"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "无衣" || gswText == "wy") {
+    sss gsw = "无衣"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "春江花月夜" || gswText == "cjhyy") {
+    sss gsw = "春江花月夜"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "将进酒" || gswText == "qjj") {
+    sss gsw = "将进酒"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "江城子•正月乙卯二十日夜记梦" || gswText == "yjm"|| gswText == "夜记梦") {
+    sss gsw = "江城子·乙卯正月二十日夜记梦"
+    uigo("gswci.iyu")
+}
+else f(gswText == "侍坐" || gswText == "sz") {
+    sss gsw = "侍坐"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "谏太宗十思疏" || gswText == "jtzsss") {
+    sss gsw = "谏太宗十思疏"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "答司马谏议书" || gswText == "dsmjys") {
+    sss gsw = "答司马谏议书"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "阿房宫赋" || gswText == "apgf") {
+    sss gsw = "阿房宫赋"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "六国论" || gswText == "lgl") {
+    sss gsw = "六国论"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "登岳阳楼" || gswText == "dyyl") {
+    sss gsw = "登岳阳楼"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "桂枝香•金陵怀古" || gswText == "gzxjlhg"|| gswText == "jlhg"|| gswText == "金陵怀古") {
+    sss gsw = "桂枝香•金陵怀古"
+    uigo("gswci.iyu")
+}
+else f(gswText == "念奴娇•过洞庭" || gswText == "nnjgdt"|| gswText == "gdt"|| gswText == "过洞庭") {
+    sss gsw = "念奴娇•过洞庭"
+    uigo("gswci.iyu")
+}
+else f(gswText == "游园" || gswText == "yy") {
+    sss gsw = "游园"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "念奴娇•赤壁怀古" || gswText == "nnjcbhg"|| gswText == "cbhg"|| gswText == "赤壁怀古") {
+    sss gsw = "念奴娇•赤壁怀古"
+    uigo("gswci.iyu")
+}
+else f(gswText == "归园田居" || gswText == "gytj") {
+    sss gsw = "归园田居"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "永遇乐•京口北固亭怀古" || gswText == "yyljkbgthg"|| gswText == "yyl"|| gswText == "京口北固亭怀古"|| gswText == "jkbgthg"|| gswText == "北固亭怀古") {
+    sss gsw = "永遇乐•京口北固亭怀古"
+    uigo("gswci.iyu")
+}
+else f(gswText == "梦游天姥吟留别" || gswText == "mytmylb") {
+    sss gsw = "梦游天姥吟留别"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "登高" || gswText == "dg") {
+    sss gsw = "登高"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "琵琶行" || gswText == "ppx"|| gswText == "ppxbx"|| gswText == "琵琶行并序") {
+    sss gsw = "琵琶行并序"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "声声慢" || gswText == "ssm") {
+    sss gsw = "声声慢"
+    uigo("gswci.iyu")
+}
+else f(gswText == "劝学" || gswText == "qx") {
+    sss gsw = "劝学"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "师说" || gswText == "ss") {
+    sss gsw = "师说"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "赤壁赋" || gswText == "cbf") {
+    sss gsw = "赤壁赋"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "登泰山记" || gswText == "dtsj") {
+    sss gsw = "登泰山记"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "静女" || gswText == "jn") {
+    sss gsw = "静女"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "涉江采芙蓉" || gswText == "sjcfr") {
+    sss gsw = "涉江采芙蓉"
+    uigo("gswshige.iyu")
+}
+else f(gswText == "鹊桥仙" || gswText == "qqx") {
+    sss gsw = "鹊桥仙"
+    uigo("gswci.iyu")
+}
+else f(gswText == "虞美人" || gswText == "ymr") {
+    sss gsw = "虞美人"
+    uigo("gswci.iyu")
+}
+else f(gswText == "") {
+    fn MDtw.toast("请输入古文名称/拼音缩写",2)
+}
+else {
+    fn MDtw.toast("请输入正确的古文名称/拼音缩写",2)
+}</eventItme></event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=23.625dp
+height=-1
+src=@icons/search.png
+layout_gravity=center
+adjustViewBounds=true</ppt>
+<event></event>
+</View>
+<View id="51" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("gzgw.iyu")
+</eventItme></event>
+</View>
+<View id="52" did="51" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=Poetry  Prose
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="56" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="TextView">
+<ppt>width=-2
+height=-1
+text=高中古文
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="65" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">s wjlj = "$wearbook.wsjc"
+fr(wjlj,jhwb)
+s jk=jhwb
+f(jk=="ghghasdw)
+{
+  uigo("随机成语.iyu")
+}
+else
+{
+  fn MDtw.toast("请开通腕上教材Pro后重试",1)
+}
+</eventItme></event>
+</View>
+<View id="66" did="65" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="68" did="67" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=Random Idioms
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="70" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="TextView">
+<ppt>width=-2
+height=-1
+text=随机成语
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="58" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("数学计算.iyu")
+</eventItme></event>
+</View>
+<View id="59" did="58" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="TextView">
+<ppt>width=-2
+height=-2
+text=Mathematicsn
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="63" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="TextView">
+<ppt>width=-2
+height=-1
+text=数学计算
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="72" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("more.iyu")</eventItme></event>
+</View>
+<View id="73" did="72" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="74" did="73" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="TextView">
+<ppt>width=-2
+height=-2
+text=More Contents
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="77" did="73" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="78" did="77" type="TextView">
+<ppt>width=-2
+height=-1
+text=更多内容
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="79" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">us(7,"currentitem","4")</eventItme></event>
+</View>
+<View id="80" did="79" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="81" did="80" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="82" did="81" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="83" did="82" type="TextView">
+<ppt>width=-2
+height=-2
+text=About Developers
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="84" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="TextView">
+<ppt>width=-2
+height=-1
+text=关于
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="43" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=23.12.16  / 公测版 1.0.4
+textColor=#ffffff
+textSize=11.5sp
+gravity=center_horizontal
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+scrollHorizontally=true
+focusable=false
+textIsSelectable=false
+singleLine=true
+ellipsize=marquee
+marqueeRepeatLimit=marquee_forever
+layout_marginTop=6.2dp
+layout_marginBottom=6.2dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>
