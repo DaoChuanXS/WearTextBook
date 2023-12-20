@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Irregular2333/WearElements/main/Readme%20Files/logo.png" width="100px"/></p>
+<img src="https://github.com/DaoChuanXS/WearNextBook/blob/main/res/logo.png" width="100px"/></p>
 <h1 >腕上教材</h1>
 
 `Created by Atomic UI 1.0 , Designed by Irregular`
