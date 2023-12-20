@@ -1,0 +1,814 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=black
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="155" did="4" type="CardView">
+<ppt>width=170.1dp
+height=67.04dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="154" did="155" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="190" did="154" type="ImageView">
+<ppt>width=57.8dp
+height=-2
+adjustViewBounds=true
+src=@icons/logo.png
+layout_gravity=center_vertical
+layout_margin=5dp
+</ppt>
+<event></event>
+</View>
+<View id="187" did="154" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="191" did="187" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="160" did="191" type="TextView">
+<ppt>width=-2
+height=-2
+text=腕上教材
+textStyle=bold
+textColor=#ffffff
+layout_gravity=center
+gravity=center
+textSize=17sp
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_marginTop=5dp
+
+
+</ppt>
+<event></event>
+</View>
+<View id="197" did="191" type="TextView">
+<ppt>width=-2
+height=-2
+text=测试版 1.0.4
+textStyle=bold
+textColor=#ffffff
+layout_gravity=center
+gravity=center
+textSize=15sp
+typeface=@fonts/HarmonyOS_Sans_Light.ttf
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="75" did="4" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginTop=9.45dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=高考倒计时
+textColor=#1E88E5
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="192" did="76" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+app_CardBackgroundColor=#212121
+layout_marginBottom=5dp</ppt>
+<event><eventItme type="clicki">fn MDtw.toast("一定要加油，你奋斗的样子很美～",0)
+</eventItme></event>
+</View>
+<View id="193" did="192" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="194" did="193" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/djs.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="195" did="193" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="196" did="195" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=距离高考还有XX
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=center
+textColor=#ffffff
+textSize=6sp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="84" did="76" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121
+visibility=gone</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="85" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(2333)</eventItme></event>
+</View>
+<View id="86" did="85" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/djs.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="87" did="85" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=图标来源
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="89" did="87" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=iconfont
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="131" did="76" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+app_CardBackgroundColor=#212121
+visibility=gone</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="132" did="131" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="press">uigo("特别感谢.iyu")</eventItme></event>
+</View>
+<View id="133" did="132" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/about.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="134" did="132" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="135" did="134" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=声明
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="136" did="134" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=长按查看
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=12.5sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="162" did="76" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+app_CardBackgroundColor=#212121
+visibility=gone</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="163" did="162" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="press">fd("$agreement231208.txt",a)
+f(a==true)
+{
+  end()
+}
+else
+{
+  fn MDtw.toast("未撤销协议",1)
+}</eventItme></event>
+</View>
+<View id="164" did="163" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/about.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="165" did="163" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="166" did="165" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=撤回协议
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="167" did="165" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=长按撤回
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=12.5sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="60" did="4" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginTop=9.45dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="TextView">
+<ppt>width=-2
+height=-2
+text=关于
+textColor=#1E88E5
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="69" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event><eventItme type="clicki">uigo("开发人员.iyu")</eventItme></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/dev.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="72" did="70" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=开发人员
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=center
+textColor=#ffffff
+textSize=14sp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="119" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event><eventItme type="clicki">uigo("使用帮助.iyu")</eventItme></event>
+</View>
+<View id="168" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="169" did="168" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/help.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="170" did="168" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="171" did="170" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=使用帮助
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=center
+textColor=#ffffff
+textSize=14sp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="144" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event><eventItme type="clicki">uigo("update.iyu")</eventItme></event>
+</View>
+<View id="172" did="144" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="173" did="172" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/update.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="174" did="172" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="175" did="174" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=应用更新
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=center
+textColor=#ffffff
+textSize=14sp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="176" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event><eventItme type="clicki">uigo("donate.iyu")</eventItme></event>
+</View>
+<View id="177" did="176" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="178" did="177" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/donate.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="179" did="177" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="180" did="179" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=捐赠开发
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=center
+textColor=#ffffff
+textSize=14sp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="181" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+app_CardBackgroundColor=#212121
+layout_marginBottom=5dp</ppt>
+<event><eventItme type="clicki">sss xy=1
+uigo("agreement.iyu")
+</eventItme></event>
+</View>
+<View id="182" did="181" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="183" did="182" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/agreement.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="184" did="182" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="185" did="184" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=用户协议
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=center
+textColor=#ffffff
+textSize=14sp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="96" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+gravity=center
+text=Copyright © 2022-2023 DaoChuan. All Rights Reserved.
+textColor=#ffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=13sp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="137" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+gravity=center
+text=Powered by Atomic UI 1.1
+textColor=#ffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=13sp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>
