@@ -1,4 +1,4 @@
-<img src="https://github.com/DaoChuanXS/WearNextBook/blob/main/res/logo.png" width="100px"/></p>
+<img src="https://github.com/DaoChuanXS/WearTextBook/blob/main/res/logo.png" width="100px"/></p>
 <h1 >腕上教材</h1>
 2023年
 ------------------------------------
