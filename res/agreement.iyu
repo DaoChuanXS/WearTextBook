@@ -1,0 +1,275 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=用户协议
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=9.45dp
+layout_marginRight=9.45dp
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="18" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=一、特别提示\n在此特别提醒您(用户)在使用腕上教材(应用)之前，请先认真阅读本《腕上教材应用用户协议》(以下简称为“协议”)，确保您充分理解本协议中的各项条款，请您仔细阅读后并选择接受或不接受本协议(如拒绝该协议请直接点击[拒绝]退出软件并从您的设备上面卸载)。当您选择同意后，应用才能正式为您提供服务。如您使用了本应用的任意功能(不包括应用引导页)，则视为同意本协议并接受本协议的各项条款的约束。\n\n本协议可由腕上教材开发者随时进行更新，更新后的协议立即代替原协议，恕不再另行通知，用户可在应用中查阅最新版的协议。在修改协议后，如果用户不接受修改后的协议，请按照上述的方法进行处理，若用户继续使用则代表同意修改后的应用协议。\n\n二、权限使用\n本应用在使用时，必须需要下列权限才能使用:\n- 文件读写(用于读取数据文件)\n- 网络权限(用于检测应用最新版本及网络服务功能)\n- 请求安装应用(用于安装应用最新版本，WearOS和HarmonyOS手表暂不支持)\n- 摄像头权限(需要该权限在腕上教材Pro功能中生成设备二维码，该权限仅用于生成二维码)\n- 震动权限(需要该权限来在某些必要的情况下提供更好的服务；)\n\n三、免责声明\n用户因第三方如通讯线路故障、技术问题、网络、移动终端设备故障、系统不稳定性及其他各种不可抗力原因而遭受的一切损失，应用不承担责任。\n\n由于用户因下述任一情况所引起或与此有关的人身伤害或附带的、间接的经济损害赔偿，包括但不限于利润损失、资料损失、业务中断的损害赔偿或其他商业损害赔偿或损失，需由用户自行承担：\n- 用户使用软件进行的行为产生的费用及损失\n- 用户对软件的误解\n- 非因应用的原因引起的与软件有关的其他损失\n- 用户与其他使用软件的用户之间通过软件进行的行为\n因您受误导或欺骗而导致或可能导致的任何人身或经济上的伤害或损失，均由过错方依法承担所有责任\n\n四、腕上教材Pro\n腕上教材Pro(下面指“捐赠功能”)是针对部分特殊用户群体推出的功能，由于其特殊性和难以维护，因此需要进行一定金额的捐赠才可激活使用。因捐赠功能的特殊性激活后不支持退款，用户请在捐赠前务必确认是否激活。\n\n五、其他说明\n用户在使用本软件某一特定服务时，该服务可能会另有单独的协议、相关业务规则等（以下统称为“单独协议”），您在使用该项服务前请阅读并同意相关的单独协议。\n\n六、关于开源\n本应用采用腕上周期表开源提供的源代码进行二次开发，本应用遵守AGPL开源协议对项目进行开源\n开源项目地址：https://github.com/DaoChuanXS/WearTextBook\n\n本协议生效时间为 2023 年 11 月 12 日。\n本协议修改时间为 2024 年 01 月 06 日。\n本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。\n本协议条款无论因何种原因部分无效或不可执行，其余条款仍有效，对双方具有约束力。\n解释权归腕上教材开发者所有(DaoChuan,邮箱:daochuanxs@foxmail.com)\n联系方式:daochuanxs@foxmail.com
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="36" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=\n
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="29" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="26" did="30" type="CardView">
+<ppt>width=80dp
+height=50dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242
+app_CardcornerRadius=5dp</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-1
+height=-1
+text=拒绝
+gravity=center
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textColor=#ffff0000
+textSize=17sp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="31" did="30" type="CardView">
+<ppt>width=80dp
+height=50dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242
+app_CardcornerRadius=5dp
+layout_marginLeft=18.9dp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-1
+height=-1
+text=同意
+gravity=center
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textColor=#ffffff
+textSize=19sp</ppt>
+<event><eventItme type="clicki">uigo("mian.iyu")
+end()
+fw("$agreement240106.txt","本文件仅用于腕上教材判断是否同意服务协议，请勿随意删除","utf-8")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+
+//调整顶部状态栏
+s(y*0.15,a)
+us(2,"height",a+"dp")
+
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+
+//调整协议左右间距
+s(x*0.05,c)
+us(13,"layout_margintop",c+"dp")
+us(13,"layout_marginleft",c+"dp")
+us(13,"layout_marginright",c+"dp")
+
+//调整按钮圆角
+s(x*0.25,d)
+us(26,"width",d+"dp")
+us(26,"height",d+"dp")
+us(29,"layout_margintop",c+"dp")
+us(29,"layout_marginbottom",c+"dp")
+us(31,"width",d+"dp")
+us(31,"height",d+"dp")
+s(x*0.05,aa)
+us(26,"layout_marginright",aa+"dp")
+us(13,"layout_margintop",c+"dp")
+ngde(0, 25, "#424242|#424242", "#ffffffff", "leftright", bg1)
+us(26,"background",bg1)
+us(31,"background",bg1)
+
+//判断进入方式
+f(sss.xy==sc)
+{
+ ufnsui()
+ {
+  us(29,"visibility","visible")
+ }
+}
+else
+{
+ ufnsui()
+ {
+  us(29,"visibility","gone")
+ }
+}
+//圆屏适配
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(13,"layout_margintop",ee+"dp")
+ }
+ us(29,"layout_marginbottom",cc+"dp")
+ us(13,"width",aa+"dp")
+}
+else f()
+{
+}</eventItme></UIEventset>

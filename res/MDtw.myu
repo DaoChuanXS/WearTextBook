@@ -1,0 +1,44 @@
+//自定义MDtoast
+fn toast(内容,选项)
+loadjar("ts.dex",dex)
+cls(dex,"com.coastbox.接口",类)
+cls("android.widget.LinearLayout",b)
+javanew(bj,"android.widget.LinearLayout$LayoutParams","int",-1,"int",-1)
+javanew(fkj,b,"Context",activity)
+java(null,fkj,"android.view.View.setLayoutParams","android.view.ViewGroup$LayoutParams",bj)
+java(null,fkj,"android.widget.LinearLayout.setOrientation","int",1)
+javax(ss.vv,null,类,"TOAST","Context",activity,"android.view.View",fkj)
+addv(fkj,"MDtoast.iyu")
+gvs(fkj,MDtoast.1,背景)
+f(选项==0)
+{
+  //正常
+  s 颜色="#ff95f8ff"
+  s 图片="@tishi/dui.png"
+}
+else f(选项==1)
+{
+  //错误
+  s 颜色="#ff95f8ff"
+  s 图片="@tishi/cuo.png"
+}
+else f(选项==6)
+{
+  //Pro
+  s 颜色="#00ffffff"
+  s 图片="@tishi/pro.png"
+}
+else
+{
+  //异常
+  s 颜色="#ff95f8ff"
+  s 图片="@tishi/weizhi.png"
+}
+ngde(5,25,颜色,颜色,bj)
+us(背景,"background",bj)
+us(背景,"elevation","0dp")
+gvs(fkj,MDtoast.4,文本)
+us(文本,"text",内容)
+gvs(fkj,MDtoast.3,tp)
+us(tp,"src",图片)
+end fn

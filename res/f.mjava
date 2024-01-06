@@ -1,0 +1,7 @@
+private double sqrt(d,i)
+{
+ d = Double.valueOf(d);
+ i = Double.valueOf(i);
+ i=1/i;
+ return Math.pow(d, i);
+}

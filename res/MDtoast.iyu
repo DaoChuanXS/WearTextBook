@@ -1,0 +1,45 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_vertical
+clickable=true
+layout_marginBottom=100dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical
+clickable=true
+layout_marginleft=15dp
+layout_marginright=15dp
+layout_margintop=10dp
+layout_marginbottom=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@tishi/weizhi.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示内容
+layout_marginLeft=8dp
+textColor=#FFFFFFFF
+textsize=15sp
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

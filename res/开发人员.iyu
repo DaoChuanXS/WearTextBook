@@ -1,0 +1,951 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="168" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="169" did="168" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="170" did="169" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="172" did="170" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(172,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="171" did="169" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="173" did="171" type="TextView">
+<ppt>width=-2
+height=-1
+text=开发人员
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="174" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="2" did="174" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertica</ppt>
+<event></event>
+</View>
+<View id="45" did="4" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=开发人员
+textColor=#ffffff
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="48" did="46" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/dc.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else
+{
+ //初始化爆炸对象
+ loadjar("boom.dex",ss.核心)
+ cls(ss.核心,"com.canyie.viewboom.爆炸",ss.类)
+ javanew(ss.对象,ss.类,"Activity",activity)
+ sss boom = 1
+}</eventItme></event>
+</View>
+<View id="51" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="52" did="51" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=Dao Chuan
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=15sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="53" did="51" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=开发 & 设计
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="54" did="46" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="56" did="55" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/irregular.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="57" did="55" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=Irregular
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=15sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="59" did="57" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=腕上周期表作者
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="60" did="4" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginTop=9.45dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="TextView">
+<ppt>width=-2
+height=-2
+text=特别感谢(长按查看)
+textColor=#ffffff
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="69" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event><eventItme type="press">uigo("特别感谢.iyu")</eventItme></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="press">uigo("特别感谢.iyu")</eventItme></event>
+</View>
+<View id="71" did="70" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/logo1.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="72" did="70" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=腕上周期表
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="74" did="72" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=全体开发人员
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="119" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="121" did="120" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/wt.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="122" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="123" did="122" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=WTONGY³₂
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="124" did="122" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=logo设计
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="144" did="61" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="145" did="144" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(2333)</eventItme></event>
+</View>
+<View id="146" did="145" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/hhh.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="147" did="145" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=嗨嗨嗨
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="149" did="147" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=圆表测试
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="75" did="4" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginTop=9.45dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="76" did="75" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=其他
+textColor=#ffffff
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="84" did="76" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="86" did="85" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/more.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="87" did="85" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=图标来源
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="89" did="87" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=iconfont
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="131" did="76" type="CardView">
+<ppt>width=-1
+height=-2
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+app_CardBackgroundColor=#212121
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="132" did="131" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="ImageView">
+<ppt>width=37.2dp
+height=-2
+src=@icons/about/more.png
+adjustViewBounds=true
+layout_marginLeft=5dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="134" did="132" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="135" did="134" type="TextView">
+<ppt>width=-2
+height=21.6dp
+text=字体来源
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+gravity=bottom
+textColor=#ffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<View id="136" did="134" type="TextView">
+<ppt>width=-2
+height=18.6dp
+text=Harmony Sans
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+gravity=center_vertical
+textColor=#ffffff
+textSize=12.5sp</ppt>
+<event><eventItme type="clicki">f(sss.boom == 1)
+{
+ javax(null,ss.对象,ss.类,"控件爆炸","android.view.View",st_vW)
+ s a=100
+ s n="振动时间："
+ s l="毫秒"
+ ss(n+a+l,g)
+ uzd(sss.zdq,a)
+}
+else f()
+{
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+//调整顶部字体间距
+s(x*0.05,b)
+us(173,"layout_marginleft",b+"dp")
+us(172,"layout_marginright",b+"dp")
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(172,"visibility","invisible")
+  us(173,"layout_marginleft","0dp")
+  us(173,"layout_gravity","center_horizontal")
+}
+else f()
+{
+  
+}
+
+//调整顶部状态栏
+s(y*0.16,a)
+us(168,"height",a+"dp")
+
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(172,"text",now)
+}
+
+//调整布局
+s(x*0.9,c)
+us(45,"width",c+"dp")
+us(60,"width",c+"dp")
+us(75,"width",c+"dp")
+s(y*0.25,d)
+//us(45,"height",d+"dp")
+us(45,"layout_margintop",b+"dp")
+//us(60,"height",d+"dp")
+us(60,"layout_margintop",b+"dp")
+//us(75,"height",d+"dp")
+us(75,"layout_margintop",b+"dp")
+us(75,"layout_marginbottom",b+"dp")
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+   
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(45,"layout_margintop",ee+"dp")
+ }
+ us(75,"layout_marginbottom",cc+"dp")
+ us(45,"width",aa+"dp")
+ us(60,"width",aa+"dp")
+ us(75,"width",aa+"dp")
+}
+else f()
+{
+  
+}
+</eventItme></UIEventset>

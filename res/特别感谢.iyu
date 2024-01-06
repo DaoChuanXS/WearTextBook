@@ -1,0 +1,263 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=特别感谢
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+overScrollMode=always</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=9.45dp
+layout_marginRight=9.45dp
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=Irregular
+layout_gravity=left
+textColor=#ffffff
+textSize=14sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=\n感谢你对腕上周期表的开源，在此也感谢腕上周期表开发组所有成员。
+layout_gravity=left
+textColor=#ffffff
+textSize=15sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=\n声明\n
+layout_gravity=left
+textColor=#ffffff
+textSize=14sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="16" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=本应用根据应用“腕上周期表”，开源所提供的源代码进行二次开发。\n
+layout_gravity=left
+textColor=#ffffff
+textSize=15sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="37" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=\n项目开源地址\n
+layout_gravity=left
+textColor=#ffffff
+textSize=14sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="38" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=本应用遵守AGPL开源协议对项目进行开源\n项目地址:https://github.com/DaoChuanXS/WearTextBook\n
+layout_gravity=left
+textColor=#ffffff
+textSize=15sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="29" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=9.45dp
+layout_marginBottom=9.45dp</ppt>
+<event></event>
+</View>
+<View id="33" did="29" type="CardView">
+<ppt>width=80dp
+height=50dp
+layout_gravity=center_vertical
+app_CardElevation=0dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#424242
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#ff424242</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-1
+height=-1
+text=已阅
+gravity=center
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textColor=#ffffff
+textSize=17sp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+
+//调整顶部状态栏
+s(y*0.15,a)
+us(2,"height",a+"dp")
+
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+
+//调整协议左右间距
+s(x*0.05,c)
+us(13,"layout_margintop",c+"dp")
+us(13,"layout_marginleft",c+"dp")
+us(13,"layout_marginright",c+"dp")
+us(29,"layout_margintop",c+"dp")
+us(29,"layout_marginleft",c+"dp")
+us(29,"layout_marginright",c+"dp")
+//调整按钮圆角
+s(x*0.25,d)
+us(13,"layout_margintop",c+"dp")
+
+//圆屏适配
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(13,"layout_margintop",ee+"dp")
+  us(29,"layout_margintop",ee+"dp")
+ }
+ us(13,"width",aa+"dp")
+ us(29,"width",aa+"dp")
+}
+else f()
+{
+}</eventItme></UIEventset>
