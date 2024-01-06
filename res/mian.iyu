@@ -1,0 +1,430 @@
+<View id="10" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#000000</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+BackgroundColor=#000000
+</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-1
+text=18:00
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  loadjar("time.dex",jar)
+  cls(jar,"com.mycompany.myapp.MainActivity",cls)
+  javax(当前时间,null,cls,"getdate")
+  ufnsui()
+  {
+    us(6,"text",当前时间)
+  }
+}</eventItme></event>
+</View>
+<View id="9" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="4" did="9" type="TextView">
+<ppt>width=-2
+height=-1
+text=首页
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="8" type="ViewPager">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onpageselected">//获取页面
+ug(7,"currentitem",interface)
+f(interface==0)
+{
+ us(4,"text","首页")
+}
+else f(interface==1)
+{
+ us(4,"text","关于")
+}
+</eventItme></event>
+</View>
+<View id="13" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=black
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="17" did="13" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="20" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="15" did="18" type="TextView">
+<ppt>width=-1
+height=-2
+text=Wear
+textColor=#ff1a0071
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=68sp
+gravity=bottom
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="26" did="18" type="TextView">
+<ppt>width=-1
+height=-2
+text=Text Book
+textStyle=bold
+textColor=#ff1a0071
+layout_marginTop=76dp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=64sp
+singleLine=true
+</ppt>
+<event></event>
+</View>
+<View id="11" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=113.4dp
+height=-1
+src=@icons/kp.png
+layout_gravity=center
+adjustViewBounds=true</ppt>
+<event></event>
+</View>
+<View id="21" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="TextView">
+<ppt>width=-1
+height=-2
+text=Text Book
+textStyle=bold
+textColor=#ff1a0071
+layout_marginTop=77dp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=64sp
+singleLine=true
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+//判断是否有同意旧协议
+fd("$agreement.txt",jiuxieyi)
+f(jiuxieyi==false)
+{
+}
+else()
+{
+ fn MDtw.toast("腕上教材用户协议已修改，请仔细阅读腕上教材用户协议",2)
+}
+//判断是否同意服务协议
+fe("$agreement240106.txt", result)
+f(result==false)
+{
+ sss xy=sc
+ uigo("agreement.iyu")
+ end()
+}
+else f()
+{
+}
+syso("用户协议："+result)
+//addv(7,"ion.iyu|organic.iyu|overview.iyu|short.iyu|about.iyu",ok)
+addv(7,"overview.iyu|about.iyu",ok)
+us(7,"currentitem",0)
+//调整顶部字体间距
+s(x*0.05,b)
+us(4,"layout_marginleft",b+"dp")
+us(6,"layout_marginright",b+"dp")
+//获取时间
+loadjar("time.dex",jar)
+cls(jar,"com.mycompany.myapp.MainActivity",cls)
+javax(当前时间,null,cls,"getdate")
+ufnsui()
+{
+ us(6,"text",当前时间)
+}
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(6,"visibility","invisible")
+  us(4,"layout_marginleft","0dp")
+  us(4,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+//调整顶部状态栏
+s(y*0.16,a)
+us(2,"height",a+"dp")
+
+
+//调整渐变动画
+f(x==y)
+{
+ s(x*0.3,c)
+ us(12,"width",c+"dp")
+ t()
+ {
+  stop(1000)
+  dha(dh, true, false)
+  dh(dh, "duration", 1000)
+  ufnsui()
+  {
+   us(13, "dh", dh)
+   us(13,"visibility","gone")
+  }
+ }
+}
+else
+{
+ s(x*0.5,c)
+ us(12,"width",c+"dp")
+ t()
+ {
+  stop(1000)
+  dha(dh, true, false)
+  dh(dh, "duration", 1000)
+  ufnsui()
+  {
+   us(13, "dh", dh)
+   us(13,"visibility","gone")
+  }
+ }
+}</eventItme><eventItme type="loadingComplete">//Pro用户欢迎语
+s wjlj = "$激活状态.wsjc"
+fr(wjlj,jhwb)
+s jk=jhwb
+f(jk=="00128kw")
+{
+  ufnsui()
+  {
+    //本地设置数据载入
+    fr("%腕上教材/应用设置/运行设置/hyykg.xx",文本)
+    sutf8to(文本,判断)
+    f(判断=="开")
+    {
+      ufnsui()
+      {
+       //开启提示
+       fn MDtw.toast("欢迎Pro用户",6)
+      }
+    }
+    else
+    {
+     syso("用户关闭了欢迎语")
+    }
+  }
+}
+else
+{
+}
+//载入配置
+t()
+{
+  ufnsui()
+  {
+    //获取屏幕的宽高
+    swh("w",x)
+    swh("h",y) 
+    s(x*0.65,c)
+    s(x*0.2,d)
+    s(x*0.05,e)
+    s(x*0.41,gd)
+    s(x*0.08,ge)
+    s(y*0.27,gy)
+    swh("w",x)
+    swh("h",y)
+    us(overview.6,"width",c+"dp")
+    us(overview.6,"height",d+"dp")
+    us(overview.8,"width",d+"dp")
+    us(overview.8,"height",d+"dp")
+    us(overview.8,"layout_marginleft",e+"dp")  
+    us(overview.86,"height",gy+"dp")
+    us(overview.87,"height",gy+"dp")
+    s(c-10,f)
+    us(overview.11,"width",f+"dp")
+    s(x*0.125,g)
+    us(overview.13,"width",g+"dp")
+    s(y*0.0125,h)
+    s(x*0.425,i)
+    s(y*0.3125,j)
+    s(x*0.9,m)
+    s(x*0.2,n)
+    s(x*0.15,o)
+    s(x*0.1125,l)
+    s(y*0.2,r)
+    us(overview.51,"width",m+"dp")
+    us(overview.58,"width",m+"dp")
+    us(overview.65,"width",m+"dp")
+    us(overview.72,"width",m+"dp")
+    us(overview.79,"width",m+"dp")
+    us(overview.93,"width",m+"dp")
+    s(y*0.27,u)
+    us(overview.51,"height",u+"dp")
+    us(overview.58,"height",u+"dp")
+    us(overview.65,"height",u+"dp")
+    us(overview.72,"height",u+"dp")
+    us(overview.79,"height",u+"dp")
+    us(overview.93,"height",u+"dp")
+    us(overview.51,"layout_margintop",e+"dp")
+    us(overview.65,"layout_margintop",e+"dp")
+    us(overview.58,"layout_margintop",e+"dp")
+    us(overview.72,"layout_margintop",e+"dp")
+    us(overview.79,"layout_margintop",e+"dp")
+    us(overview.43,"layout_margintop",e+"dp")
+    us(overview.100,"layout_marginbottom",e+"dp")
+    s(y*0.23,mm)
+    s(mm+10,mmm)
+   // s(y*0.25,dd)
+   // s(dd-10,di)
+    //s(y*0.125,yi)
+    //us(about.160,"width",mm+"dp")    
+    us(about.190,"width",mm+"dp")
+    us(about.5,"width",m+"dp")
+    //us(about.155,"width",m+"dp")
+    //us(about.155,"height",mmm+"dp")
+    us(about.155,"width",m+"dp")
+    us(about.155,"height",mmm+"dp")
+    //us(about.160,"height",yi+"dp")
+    us(about.45,"width",m+"dp")
+    us(about.60,"width",m+"dp")
+    us(about.75,"width",m+"dp")
+    //us(about.104,"width",m+"dp")
+    us(about.137,"layout_marginbottom",e+"dp")
+    us(about.45,"layout_margintop",e+"dp")
+    //us(about.104,"layout_margintop",e+"dp")
+    us(about.60,"layout_margintop",e+"dp")
+    us(about.75,"layout_margintop",e+"dp")
+    us(about.96,"layout_margintop",e+"dp")    
+    f(x==y)
+    {
+     s(x/1.414,aa)
+     s(x/2.828,aa1)
+     s(x-aa,bb)
+     s(bb*0.5,cc)
+     s(y*0.16,dd)
+     f(dd&gt;=cc)
+     {
+     }
+     else f()
+     {
+      s(cc-aa,ee)
+      us(overview.7,"layout_margintop",ee+"dp")
+      us(about.155,"layout_margintop",ee+"dp")
+     }
+     us(overview.100,"layout_marginbottom",cc+"dp")
+     us(overview.7,"width",aa+"dp")
+     s(d+e,ff)
+     s(aa-ff,hh)
+     s(aa1-2ff,hh2)
+     us(overview.6,"width",hh+"dp")
+     us(overview.51,"width",aa+"dp")
+     us(overview.58,"width",aa+"dp")
+     us(overview.65,"width",aa+"dp")
+     us(overview.72,"width",aa+"dp")
+     us(overview.79,"width",aa+"dp")
+     us(overview.93,"width",aa+"dp")
+     s(hh-10,aaa)
+     us(overview.11,"width",aaa+"dp")
+     us(about.155,"width",aa+"dp")
+     us(about.45,"width",aa+"dp")
+     us(about.60,"width",aa+"dp")
+     //us(about.104,"width",aa+"dp")
+     us(about.75,"width",aa+"dp")
+     us(about.137,"layout_marginbottom",cc+"dp")
+    }
+    else f()
+    {
+    }
+ }
+}</eventItme></UIEventset>
