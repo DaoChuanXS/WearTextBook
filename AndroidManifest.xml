@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>腕上教材</title>
+<icon>icon.png</icon>
+<packageName>com.daochuan.wear.book开源</packageName>
+<versionName>1.1-Final</versionName>
+<versionint>9</versionint>
+<sdk>23</sdk>
+<yuv>3</yuv>
+
+<remark></remark>
+<Permissions>android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.ACCESS_NETWORK_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.VIBRATE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.INTERNET
+android.permission.READ_PHONE_STATE</Permissions>
+<createTime>2023-10-15 00:43:19</createTime>
+<upTime>2023-10-15 00:43:19</upTime><manifest>&lt;uses-sdk android:minSdkVersion="15" android:targetSdkVersion="29" /&gt;</manifest><application></application>
