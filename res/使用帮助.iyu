@@ -52,7 +52,7 @@ orientation=vertical</ppt>
 <View id="7" did="6" type="TextView">
 <ppt>width=-2
 height=-1
-text=应用帮助
+text=软件帮助
 gravity=center_vertical
 textColor=#1E88E5
 textStyle=bold
