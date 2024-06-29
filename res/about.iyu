@@ -83,7 +83,7 @@ layout_marginTop=5dp
 <View id="197" did="191" type="TextView">
 <ppt>width=-2
 height=-2
-text=最终版 V1.1
+text=最终版 V1.2
 textStyle=bold
 textColor=#ffffff
 layout_gravity=center
@@ -590,7 +590,7 @@ layout_marginLeft=5dp
 layout_marginRight=5dp
 layout_marginTop=5dp
 app_CardBackgroundColor=#212121</ppt>
-<event><eventItme type="clicki">uigo("使用帮助.iyu")</eventItme></event>
+<event><eventItme type="clicki">uigo("软件帮助.iyu")</eventItme></event>
 </View>
 <View id="168" did="119" type="LinearLayout">
 <ppt>width=-1
@@ -619,7 +619,7 @@ gravity=center_vertical</ppt>
 <View id="171" did="170" type="TextView">
 <ppt>width=-2
 height=21.6dp
-text=使用帮助
+text=软件帮助
 textStyle=bold
 typeface=@fonts/HarmonyOS_Sans_Bold.ttf
 gravity=center
