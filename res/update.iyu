@@ -136,7 +136,7 @@ orientation=vertical</ppt>
 <View id="45" did="43" type="TextView">
 <ppt>width=-2
 height=-2
-text=1.新增课外拓展篇目搜索功能(全称)\n2.完成最终开发\n3.移除部分体验较差功能
+text=1.修复已知问题
 textStyle=bold
 typeface=@fonts/HarmonyOS_Sans_Medium.ttf
 layout_gravity=left
@@ -199,7 +199,7 @@ height=-2
 text=-
 textStyle=bold
 typeface=@fonts/HarmonyOS_Sans_Medium.ttf
-layout_gravity=center
+layout_gravity=left
 textSize=16sp
 textColor=#ffffff
 layout_marginLeft=2.5dp</ppt>
@@ -246,12 +246,13 @@ typeface=@fonts/HarmonyOS_Sans_Medium.ttf
 layout_gravity=center
 textSize=16sp
 textColor=#ffffff
-layout_marginLeft=2.5dp
-</ppt>
+layout_marginLeft=2.5dp</ppt>
 <event></event>
 </View>
 <UIEventset><eventItme type="loading">//调整状态栏黑色
 uycl("#000000", true)
+//防抓包
+fn vpn.vpn()
 //获取屏幕的宽高
 swh("w",x)
 swh("h",y)
@@ -282,9 +283,15 @@ ufnsui()
 //调整布局
 s(x*0.9,c)
 us(12,"width",c+"dp")
+us(26,"width",c+"dp")
+us(33,"width",c+"dp")
 us(40,"width",c+"dp")
 s(y*0.25,d)
-us(12,"layout_marginbottom",b+"dp")
+us(26,"height",d+"dp")
+us(33,"height",d+"dp")
+us(26,"layout_margintop",b+"dp")
+us(33,"layout_margintop",b+"dp")
+us(33,"layout_marginbottom",b+"dp")
 //获取本地数据
 javax(pknm,activity,"android.content.ContextWrapper","getPackageName")
 javax(ac,activity,"android.content.ContextWrapper","getPackageManager")
@@ -306,8 +313,10 @@ f(x==y)
   s(cc-aa,ee)
   us(40,"layout_margintop",ee+"dp")
  }
- us(12,"layout_marginbottom",cc+"dp")
+ us(33,"layout_marginbottom",cc+"dp")
  us(12,"width",aa+"dp")
+ us(26,"width",aa+"dp")
+ us(33,"width",aa+"dp")
  us(40,"width",aa+"dp")
 }
 else f()
