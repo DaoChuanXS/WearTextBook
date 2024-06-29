@@ -147,34 +147,6 @@ else f(gswText == "屈原列传" || gswText == "qylz") {
     sss gsw = "屈原列传"
     uigo("gswshige.iyu")
 }
-else f(gswText == "朝天子·咏喇叭" || gswText == "ctzylb") {
-    sss gsw = "朝天子·咏喇叭"
-    uigo("gswshige.iyu")
-}
-else f(gswText == "贺新郎·国脉微如缕" || gswText == "hxlgmwrl") {
-    sss gsw = "贺新郎·国脉微如缕"
-    uigo("gswci.iyu")
-}
-else f(gswText == "菩萨蛮·书江西造口壁" || gswText == "mspsjxzkb") {
-    sss gsw = "菩萨蛮·书江西造口壁"
-    uigo("gswshige.iyu")
-}
-else f(gswText == "青玉案·元夕" || gswText == "qyayx") {
-    sss gsw = "青玉案·元夕"
-    uigo("gswci.iyu")
-}
-else f(gswText == "报任安书" || gswText == "bras") {
-    sss gsw = "报任安书"
-    uigo("gswshige.iyu")
-}
-else f(gswText == "长亭送别" || gswText == "ctsb") {
-    sss gsw = "长亭送别"
-    uigo("gswshige.iyu")
-}
-else f(gswText == "大道之行也" || gswText == "ddzxy") {
-    sss gsw = "大道之行也"
-    uigo("gswshige.iyu")
-}
 else f(gswText == "过秦论" || gswText == "gql") {
     sss gsw = "过秦论"
     uigo("gswshige.iyu")
@@ -295,18 +267,6 @@ else f(gswText == "赤壁赋" || gswText == "cbf") {
     sss gsw = "赤壁赋"
     uigo("gswshige.iyu")
 }
-else f(gswText == "山居秋暝" || gswText == "sjqm") {
-    sss gsw = "山居秋暝"
-    uigo("gswshige.iyu")
-}
-else f(gswText == "菩萨蛮" || gswText == "psm") {
-    sss gsw = "菩萨蛮"
-    uigo("gswshige.iyu")
-}
-else f(gswText == "苏幕遮•燎沉香" || gswText == "smzlcx") {
-    sss gsw = "苏幕遮•燎沉香"
-    uigo("gswci.iyu")
-}
 else f(gswText == "登泰山记" || gswText == "dtsj") {
     sss gsw = "登泰山记"
     uigo("gswshige.iyu")
@@ -332,7 +292,20 @@ else f(gswText == "") {
 }
 else {
     fn MDtw.toast("请输入正确的古文名称/拼音缩写",2)
-}</eventItme></event>
+}</eventItme><eventItme type="press">//fn MDtw.toast("本功能将于后续正式版本更新后实装",2)
+//s wjlj = "%设备信息/激活状态.wsjc"
+s wjlj = "$激活状态.wsjc"
+fr(wjlj,jhwb)
+s jk=jhwb
+f(jk=="dcFudh1t67ha6k")
+{
+  uigo("快递查询.iyu")
+}
+else
+{
+  fn MDtw.toast("请激活腕上教材Pro后体验",1)
+}
+</eventItme></event>
 </View>
 <View id="13" did="12" type="ImageView">
 <ppt>width=23.625dp
@@ -411,7 +384,7 @@ BackgroundRipple=#000000</ppt>
 <event><eventItme type="clicki">s wjlj = "$激活状态.wsjc"
 fr(wjlj,jhwb)
 s jk=jhwb
-f(jk=="00128kw")
+f(jk=="dcFudh1t67ha6k")
 {
   uigo("随机成语.iyu")
 }
@@ -638,7 +611,7 @@ typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
 <View id="43" did="1" type="TextView">
 <ppt>width=-1
 height=-2
-text=24.01.06  / 最终版 1.1
+text=24.06.29  / 最终版 1.2
 textColor=#ffffff
 textSize=11.5sp
 gravity=center_horizontal
